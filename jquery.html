@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>jQuery | NovaGear</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body><header class="header"><a class="logo" href="index.html"><span>◆</span> NovaGear</a><button class="menu-btn" onclick="toggleMenu()">☰</button><nav id="nav"><a href="index.html">Inicio</a><a href="javascript.html">JavaScript</a><a class="active" href="jquery.html">jQuery</a><a href="json.html">JSON</a><a href="hosting.html">Hosting y Dominios</a><a class="quiz-link" href="cuestionario.html">Cuestionario</a></nav></header>
+<main class="page"><div class="page-hero jq-bg"><span class="tag">TECNOLOGÍA 02</span><h1>jQuery <em>$</em></h1><p>Una librería de JavaScript creada para simplificar tareas comunes de desarrollo web.</p></div>
+<section class="section"><div class="info-grid"><article class="info-card"><b class="num">01</b><h2>¿Qué es?</h2><p>jQuery es una librería de JavaScript que nació para facilitar la selección y modificación de elementos HTML, los eventos, efectos y otras tareas frecuentes.</p></article><article class="info-card"><b class="num">02</b><h2>La sintaxis $</h2><p>El símbolo <b>$</b> es una forma corta y característica de acceder a elementos y métodos de jQuery.</p></article><article class="info-card"><b class="num">03</b><h2>Ventajas y desventajas</h2><p><b>Ventaja:</b> sintaxis sencilla y útil para proyectos antiguos. <b>Desventaja:</b> JavaScript moderno ya incluye muchas funciones que antes requerían jQuery.</p></article></div>
+<div class="compare"><h2>JavaScript vs. jQuery</h2><div class="compare-grid"><div><h3>JavaScript Vanilla</h3><pre><code>document
+  .querySelector("#caja")
+  .classList.toggle("activo");</code></pre></div><div><h3>jQuery</h3><pre><code>$("#caja")
+  .toggleClass("activo");</code></pre></div></div></div>
+<div class="live-demo"><h3>Ejemplo de efecto</h3><div id="cajaJQ" class="demo-box">¡Hola! Este bloque puede aparecer y desaparecer.</div><button class="btn primary" id="toggleJQ">slideToggle</button></div>
+<div class="sources"><h3>Recursos y bibliografía</h3><p>jQuery Documentation · MDN Web Docs</p></div></section></main>
+<footer><b>◆ NovaGear</b><p>Proyecto educativo de desarrollo web.</p></footer><script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><script src="js/app.js"></script></body></html>

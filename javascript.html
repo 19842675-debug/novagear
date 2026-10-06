@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaScript | NovaGear</title><link rel="stylesheet" href="css/estilos.css"></head>
+<body><header class="header"><a class="logo" href="index.html"><span>◆</span> NovaGear</a><button class="menu-btn" onclick="toggleMenu()">☰</button><nav id="nav"><a href="index.html">Inicio</a><a class="active" href="javascript.html">JavaScript</a><a href="jquery.html">jQuery</a><a href="json.html">JSON</a><a href="hosting.html">Hosting y Dominios</a><a class="quiz-link" href="cuestionario.html">Cuestionario</a></nav></header>
+<main class="page"><div class="page-hero js-bg"><span class="tag">TECNOLOGÍA 01</span><h1>JavaScript <em>Vanilla</em></h1><p>El lenguaje que permite agregar comportamiento e interactividad a una página web.</p></div>
+<section class="section"><div class="info-grid"><article class="info-card"><b class="num">01</b><h2>¿Qué es?</h2><p>JavaScript es un lenguaje de programación utilizado principalmente para crear páginas web interactivas. Puede responder a acciones del usuario, modificar contenido y trabajar con datos.</p></article><article class="info-card"><b class="num">02</b><h2>HTML + CSS + JS</h2><p><b>HTML</b> construye la estructura, <b>CSS</b> define el aspecto visual y <b>JavaScript</b> agrega comportamiento.</p></article><article class="info-card"><b class="num">03</b><h2>Conceptos básicos</h2><p><b>Variables:</b> guardan datos. <b>Funciones:</b> agrupan instrucciones. <b>Eventos:</b> ejecutan acciones cuando ocurre algo como un click.</p></article></div>
+<div class="code-demo"><div><span class="tag">EJEMPLO PRÁCTICO</span><h2>Un botón que cambia un mensaje</h2><p>El evento <b>click</b> llama a una función y cambia el texto mostrado en pantalla.</p></div><pre><code>const boton = document.querySelector("#boton");
+const mensaje = document.querySelector("#mensaje");
+
+boton.addEventListener("click", () => {
+  mensaje.textContent = "¡JavaScript está funcionando!";
+});</code></pre></div>
+<div class="live-demo"><h3>Prueba el ejemplo</h3><p id="mensaje">Presiona el botón para cambiar este mensaje.</p><button class="btn primary" id="boton">Hacer click</button></div>
+<div class="sources"><h3>Recursos y bibliografía</h3><p>MDN Web Docs — JavaScript · W3Schools — JavaScript</p></div></section></main>
+<footer><b>◆ NovaGear</b><p>Proyecto educativo de desarrollo web.</p></footer><script src="js/app.js"></script></body></html>
